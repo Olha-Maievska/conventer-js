@@ -1,0 +1,15 @@
+export default {
+  success: 'success',
+  selects: document.querySelectorAll('.select'),
+  amountInput: document.querySelector('#amount'),
+  form: document.querySelector('.form'),
+  resultFrom: document.querySelector('#resultFrom'),
+  resultTo: document.querySelector('#resultTo'),
+  formResult: document.querySelector('.form-results'),
+  rateConversion: document.querySelector('.rate-conversion'),
+  rateLast: document.querySelector('.rate-last'),
+  switchBtn: document.querySelector('.switch-currencies'),
+  toSelect: document.querySelector('#to'),
+  fromSelect: document.querySelector('#from'),
+  tabs: document.querySelectorAll('.tab'),
+}
