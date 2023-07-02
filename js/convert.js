@@ -56,7 +56,6 @@ export const handleSubmit = async(e) =>  {
   try {
     const response = await fetch(`${url}/pair/${from}/${to}/${amount}`)
     const data = await response.json()
-    console.log(data);
     if (data.result === variables.success) insertResult(data)
     state.loading = false
 
